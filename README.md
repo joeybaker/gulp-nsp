@@ -8,7 +8,9 @@ gulp-nsp
 ## Usage
 ### options
 ## tests
-All tests are [lab](https://github.com/spumko/lab) (like mocha). You can run them with `npm test`.
+All tests are [lab](https://github.com/spumko/lab) (like mocha). You can run them with `npm test` for tap output. `npm run tdd` will output mocha-like results and a coverage report.
+
+## Developing
 
 ## Changelog
 See `CHANGELOG.md`

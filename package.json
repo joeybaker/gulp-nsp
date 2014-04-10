@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "./node_modules/.bin/lab -c -r tap -p",
+    "test": "./node_modules/.bin/lab -r tap",
+    "tdd": "./node_modules/.bin/lab -c",
     "lint": "./node_modules/gulp/bin/gulp.js lint",
     "release": "./node_modules/gulp/bin/gulp.js publish"
   },
